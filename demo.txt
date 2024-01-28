@@ -3,3 +3,4 @@ this is a demo session
 to save a file in vscode press ctrl+s 
 what is the developer role?
 version control system
+how to commiit and push method in this vscode 
