@@ -14,8 +14,13 @@ request.send();
 request.onload = function(){
     var res = JSON.parse(request.response);
     console.log(res);
-    //to print all 250 countries comman name:
-    for(var i=0;i<res.lenght;i++){
-    console.log(res[i].name.common)
-} 
+//to print all 250 countries comman name 
+for(var i =0;i<res.length;i++){
+    if(res[i].capital){
+        console.log(res[i].capital[0]+" "+res[i].area)
+    }
+    else{
+        console.log("Invalid capital"+res[i].area);
+    }
+}
 }
