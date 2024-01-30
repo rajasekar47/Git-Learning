@@ -14,7 +14,7 @@ request.send();
 request.onload = function(){
     var res = JSON.parse(request.response);
     console.log(res);
-//to print all 250 countries comman name 
+    //Print the capital name, as well as area for countries
 for(var i =0;i<res.length;i++){
     if(res[i].capital){
         console.log(res[i].capital[0]+" "+res[i].area)
