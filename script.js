@@ -22,5 +22,10 @@ for(var i =0;i<res.length;i++){
     else{
         console.log("Invalid capital"+res[i].area);
     }
+
 }
 }
+// to print all 250 countries common name: 
+//for(var i =0;i<res.length;i++){
+//console.log(res[i].name.common)
+//}
